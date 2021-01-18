@@ -1,10 +1,9 @@
 package ee.bcs.valiit.tasks.solution;
 
-import java.util.Arrays;
-
 public class Lesson3 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(sort2(new int[]{5, -6, 9, 12, 7})));
+        //System.out.println(Arrays.toString(sort2(new int[]{5, -6, 9, 12, 7})));
+        //System.out.println(String);
     }
 
     public static int sum(int[] x) {
@@ -53,10 +52,11 @@ public class Lesson3 {
         return array;
     }
 
-    public static String reverseString(String a) {
+    public static void reverseString(String a) {
         // TODO tagasta string tagurpidi
-        return "";
+
     }
+
 
     public static boolean isPrime(int x) {
         // TODO tagasta kas sisestatud arv on primaar arv (jagub ainult 1 ja iseendaga)
